@@ -9,6 +9,8 @@ use App\Services\OrderDetailService;
 use App\Services\OrderService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Http\Requests\CustomerRequest;
+
 
 class BuyNowController {
     protected $cartService;
